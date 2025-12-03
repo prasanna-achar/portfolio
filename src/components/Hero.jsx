@@ -30,7 +30,7 @@ const Hero = () => {
                             View Projects
                             <ArrowRight className="ml-2 w-5 h-5" />
                         </a>
-                        <a href="/prasanna_achar.pdf" download="true"
+                        <a href={`${import.meta.env.BASE_URL}prasanna_achar.pdf`} download="true"
                             className='hover:scale-96 transition-all duration-500 ease-in-out hover:shadow-lg
                             inline-flex items-center justify-center px-8 py-3 border border-gray-300 dark:border-gray-600 text-base font-medium rounded-lg text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 md:py-4 md:text-lg transition-all shadow-sm hover:shadow-md'
                         >
@@ -45,7 +45,7 @@ const Hero = () => {
                     <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
                         <div className="absolute inset-0 bg-gradient-to-tr from-blue-600 to-purple-600 rounded-full blur-2xl opacity-30 animate-pulse"></div>
                         <img
-                            src="/My_pic.jpg"
+                            src={`${import.meta.env.BASE_URL}My_pic.jpg`}
                             alt="Prasanna Achar S E"
                             className="relative w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-2xl"
                         />
